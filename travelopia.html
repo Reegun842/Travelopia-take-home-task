@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tourism Form</title>
+	<!-- Link to CSS file -->
+	<link rel="stylesheet" type="text/css" href="travelopia.css">
+</head>
+<body>	
+    <!-- Slideshow of images -->
+<div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="https://e0.pxfuel.com/wallpapers/149/259/desktop-wallpaper-web-development.jpg">
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="https://e0.pxfuel.com/wallpapers/149/259/desktop-wallpaper-web-development.jpg">
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="https://e0.pxfuel.com/wallpapers/149/259/desktop-wallpaper-web-development.jpg">
+    </div>
+  </div>
+  
+
+	<!-- Quote related to tourism -->
+	<div class="quote-container">
+		<p class="quote">"The world is a book, and those who do not travel read only a page."</p>
+		<p class="author">- Saint Augustine</p>
+	</div>
+
+	<!-- Form for user input -->
+	<form id="tourism-form">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="destination">Where do you want to go?</label>
+		<select id="destination" name="destination">
+			<option value="India">India</option>
+			<option value="Africa">Africa</option>
+			<option value="Europe">Europe</option>
+		</select>
+
+		<label for="num-travelers">No. of travelers:</label>
+		<input type="number" id="num-travelers" name="numTravelers" required>
+
+		<label for="budget">Budget Per Person:</label>
+		<input type="number" id="budget" name="budget" required>
+		<span>$</span>
+
+		<button type="submit">Submit</button>
+	</form>
+
+	<!-- Link to JavaScript file -->
+	<script src="travelopia.js"></script>
+</body>
+</html>
